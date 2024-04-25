@@ -1,0 +1,8 @@
+numpy
+flask
+werkzeug
+waitress
+opencv-python-headless
+torch
+torchvision
+albumentations

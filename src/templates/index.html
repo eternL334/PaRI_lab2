@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>Triangles</h1>
+<form method="POST" enctype=multipart/form-data>
+    <p>
+        <label for="predict">Select image: </label>
+        <input type="file" name="image" id="image">
+    </p> 
+    <!-- <p>
+        <label for="hue">Hue bounds: </label>
+        <input type="number" value="50" min="0" max="255" id="hue" name="lowhue">
+        <input type="number" value="140" min="0" max="255" id="hue" name="highhue">
+    </p>
+    <p>
+        <label for="saturation">Saturaion bounds: </label>
+        <input type="number" value="0" min="0" max="255" id="saturation" name="lowsaturation">
+        <input type="number" value="255" min="0" max="255" id="hsvsaturation" name="highsaturation">
+    </p>
+    <p>
+        <label for="value">Value bounds: </label>
+        <input type="number" value="150" min="0" max="255" id="value" name="lowvalue">
+        <input type="number" value="255" min="0" max="255" id="value" name="highvalue">
+    </p>
+    <p>
+        <label for="size">Min size for component: </label>
+        <input type="number" value="30" min="0" id="size" name="size">
+    </p> -->
+    <p>
+        <input type="submit" value="Next">
+    </p>
+</form>
+{% endblock %}

@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+}
+
+.container {
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
